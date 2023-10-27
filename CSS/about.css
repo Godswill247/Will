@@ -1,0 +1,355 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200..900&display=swap);
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: montserrat;
+}
+
+.navbar-brand {
+    background-color: rgb(247, 183, 65);
+    margin-top: -10px;
+}
+
+#head {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(../Image/fast-food-pictures-7fx0hrmcx165ccgh.jpg);
+    min-height: 500px;
+    background-size: 100%;
+}
+
+body {
+    background-color: rgba(135, 135, 135, 0.11);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .active {
+    color: rgb(247, 183, 65);
+}
+
+.navbar-nav .nav-item .active {
+    border-bottom: 3px solid rgb(247, 183, 65);
+}
+
+.social i:hover {
+    color: rgb(247, 183, 65);
+}
+
+.showcase{
+    font-weight: 400;
+    color: white;
+    font-size: 120%;
+}
+
+
+.showcase hr{
+    width:6%;
+    border-top: 5px solid rgb(247, 183, 65);
+    opacity: 1;
+}
+
+.showcase h6 {
+    font-family: montserrat;
+    color: white;
+    width: fit-content;
+    font-size: 14pt;
+    font-weight: 250;
+    word-spacing: 3px;
+}
+
+.showcase h1 {
+    font-family: montserrat;
+    color: white;
+    width: fit-content;
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.show-link a:hover {
+    background-color: black;
+    color: rgb(247, 183, 65);
+    border: 2px solid rgb(247, 183, 65);
+}
+
+#icon-top p{
+    padding-left: 25%;
+}
+
+h5 a{
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(247, 183, 65);
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+h2{
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.pic1{
+    background:url(../Image/green_standing-removebg1-preview.png) ;
+    min-height: 250px;
+    background-size: cover;
+    padding-left: 25%;
+}
+.pic2{
+    background:url(../Image/handless-removebg1-preview.png) ;
+    min-height: 250px;
+    background-size: cover;
+    padding-left: 25%;
+}
+.pic3{
+    background:url(../Image/pull-removebg1-preview.png) ;
+    min-height: 250px;
+    background-size: cover;
+    padding-left: 25%;
+}
+.pic4{
+    background:url(../Image/Boy_cas_removebg-preview.png) ;
+    min-height: 250px;
+    background-size: cover;
+    padding-left: 25%;
+}
+
+.pic1:hover{
+    background-color: rgba(105, 103, 103, 0.11);
+    transition: 1s ease-in;
+}
+
+.icon{
+    padding-left: 15%;
+}
+
+.icon i{
+    background-color: black;
+    color: white;
+}
+
+.d-flex i:hover{
+    background-color: white;
+    color: black;
+}
+
+.ima{
+    padding-left: 6%;
+}
+
+.galleryimg1{
+    background:url(../Image/burger-background.jpg) ;
+    min-height: 250px;
+    background-size: contain;
+    border: 2px;
+}
+.galleryimg2{
+    background:url(../Image/burg-ba.jpeg) ;
+    min-height: 250px;
+    background-size: cover;
+    background-position: right;
+    border: 2px;
+}
+.galleryimg3{
+    background:url(../Image/burger-cheese.jpg);
+    min-height: 250px;
+    background-size: contain;
+    border: 2px;
+}
+.galleryimg4{
+    background:url(../Image/burger-fire.jpg);
+    min-height: 250px;
+    background-size: cover;
+    background-position: right;
+    border: 2px;
+}
+
+.galleryimg6{
+    background:url(../Image/double-beef-burger.jpg);
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    border: 2px;
+}
+
+.galleryimg7{
+    background:url(../Image/Classic-Juicy-Hamburger-Recipe-Square.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border: 2px;
+}
+
+.galleryimg8{
+    background:url(../Image/burger-background.jpg);
+    min-height: 250px;
+    background-size: cover;
+    background-position: right;
+    border: 2px;
+}
+
+.pic5{
+    background:url(../Image/burger-removebg-preview.png) ;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 25%;
+}
+.pic6{
+    background:url(../Image/farmhouse_burger-removebg-preview.png) ;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 25%;
+}
+
+.pic7{
+    background:url(../Image/burger-white-removebg-preview.png) ;
+    min-height: 300px;
+    background-size: cover;
+    background-position: left;
+    padding-left: 25%;
+}
+
+.burg{
+    min-height: 400px;
+}
+
+.plus{
+    text-align: center;
+}
+
+.plus a{
+    color: black;
+}
+.plus a:hover{
+    color: rgb(247, 183, 65);
+}
+
+h1 {
+    padding: 2px;
+    font-size: 300%;
+}
+
+.carousel-control-next,
+.carousel-control-prev /* carosel-nav */{
+    filter: invert(100%);
+}
+
+#section{
+    background: url(../Image/pexels_medhat_ayad_447592.jpg);
+}
+
+.best{
+    background-color: rgb(247, 183, 65);
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.book{
+    background-color: rgb(247, 183, 65);
+    color: white;
+    padding: 3%;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#section .des{
+        padding: 5%;
+        padding-bottom: 0%;
+        background-color: white;
+}
+
+.pic11{
+    background:url(../Image/burger-cheese.jpg) ;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 25%;
+}
+.pic12{
+    background:url(../Image/burg-ba.jpeg) ;
+    min-height: 500px;
+    background-size: cover;
+    background-position: right;
+    padding-left: 25%;
+}
+.pic13{
+    background:url(../Image/burger-fire.jpg) ;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 25%;
+}
+
+.ad {
+    background-color: black;
+    color: white;
+    padding-left: 7%;
+    font-size: x-large;
+}
+
+.ad a {
+    text-decoration: none;
+    background-color: rgb(247, 183, 65);
+    color: white;
+}
+
+.foot-icon i {
+    padding: 20%;
+    margin: 3px;
+    font-size: large;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+}
+
+.foot-icon i:hover {
+    background-color: rgb(247, 183, 65);
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.pi{
+    font-size: large;
+}
+
+#contact {
+    font-family: montserrat;
+}
+
+#contact a {
+    padding: 5px;
+ 
+}
+#contact img {
+    width: 5%;
+}
+
+.col-md-1{
+    padding-top: 1%;
+    font-size: 200%;
+    color: rgb(247, 183, 65);
+}
+.col-md-1:hover{
+    color: white;
+}
+
+.col-md-11{
+    font-size: large;
+}
+
+#foot {
+    background-color: rgb(247, 183, 65);
+    text-align: center;
+}
+.brai{
+    font-size: 11.5pt;
+    line-height: 1.7;
+}

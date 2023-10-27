@@ -1,0 +1,332 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200..900&display=swap);
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: montserrat;
+}
+
+.navbar-brand {
+    background-color: rgb(247, 183, 65);
+    margin-top: -10px;
+}
+
+#head {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(../Image/burgershow-alvin-2-1519745107.jpeg);
+    min-height: 500px;
+    background-size: 100%;
+}
+
+body {
+    background-color: rgba(135, 135, 135, 0.11);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .active {
+    color: rgb(247, 183, 65);
+}
+
+.navbar-nav .nav-item .active {
+    border-bottom: 3px solid rgb(247, 183, 65);
+}
+
+.social i:hover {
+    color: rgb(247, 183, 65);
+}
+
+.showcase{
+    font-weight: 400;
+    color: white;
+    font-size: 120%;
+}
+
+
+.showcase hr{
+    width:6%;
+    border-top: 5px solid rgb(247, 183, 65);
+    opacity: 1;
+}
+
+.showcase h6 {
+    font-family: montserrat;
+    color: black;
+    width: fit-content;
+    font-size: 14pt;
+    font-weight: bold;
+    letter-spacing: 10px;
+    word-spacing: 3px;
+}
+
+.showcase h1 {
+    font-family: montserrat;
+    color: white;
+    width: fit-content;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.show-link a:hover {
+    background-color: black;
+    color: rgb(247, 183, 65);
+    border: 2px solid rgb(247, 183, 65);
+}
+.row-tasty{
+    display:grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    gap:3%;
+}
+
+#tasty {
+    margin: 2%;
+    background-color: white;
+    padding-bottom: 4%;
+}
+.lol{
+    position: relative;
+    left:50px;
+    width: fit-content;
+    background-color: rgb(247, 183, 65);
+    border-radius: 50%;
+    color: white;
+    padding: 7px;
+    transition: .8s ease-in;
+}
+.lol:hover{
+    background-color:white; 
+    border: 1px solid rgb(247, 183, 65);
+    color: rgb(247, 183, 65);
+}
+
+.taste h1{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+.img1-tasty{
+    background: url(../Image/Classic-Juicy-Hamburger-Recipe-Square.jpg);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    transition: 1s ease-in-out ;
+    
+}
+
+.row-tasty:hover{
+    cursor: pointer;
+    color: rgb(247, 183, 65);
+    .img1-tasty{
+        transform: scale(1.2);
+    }
+    .tast p{
+        color:rgb(247, 183, 65);
+    }
+    .tast h4{
+     color: black;
+    }
+}
+.tast h4{
+    font-size: 1.6em;
+    text-transform: capitalize;
+    font-weight: 700;
+    transition: 1s ease-in-out ;
+}
+.tast{
+    font-size:10.5pt;
+   
+}
+.tast p{
+    color:gray;
+    transition: 1s ease-in-out ;
+}
+.tast h6{
+    font-size: 1.5em;
+}
+
+.div{
+    text-align: center;
+}
+
+.coloret {
+    margin-left: 38%;
+    margin-right: 38%;
+    background-color: rgb(247, 183, 65);
+    color: white;
+    word-spacing: 3px;
+    font-weight: 300;
+    font-size: 150%;
+    text-align: center;
+}
+@media screen and (max-width:650px) {
+.tast{
+    font-size:8.5pt
+} 
+.tast h4{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.img1-tasty{
+    background: url(../Image/Classic-Juicy-Hamburger-Recipe-Square.jpg);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+}
+
+.btn{
+    padding: 15px;
+    margin-left: 45%;
+    margin-right: 25%;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(247, 183, 65);
+    
+}
+
+.btn:hover{
+    color: rgb(247, 183, 65);
+    background-color: white;
+    border: 2px solid rgb(247, 183, 65);
+}
+
+#sweets{
+    padding: 3%;
+    background: url(../Image/burger-background.jpg);
+    backdrop-filter: blur(250px);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.tasta{
+    padding-bottom: 6%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    blur(10px);
+}
+
+.tasta h1{
+    font-size: 400%;
+    font-weight: 680;
+    text-align: center;
+}
+
+.div{
+    text-align: center;
+}
+
+.tasta p{
+    color: white;
+}
+
+.milk h1{
+    font-size: 400%;
+    font-weight: 680;
+    text-align: center;
+}
+
+#drinks{
+    padding-top: 5%;
+    padding-bottom: 9%;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+}
+
+h4{
+    text-align: center;
+}
+
+.col-md-4{
+    color: black;
+}
+
+.ad {
+    background-color: black;
+    color: white;
+    padding-left: 7%;
+    font-size: x-large;
+}
+.your a{
+border-bottom: 2px solid rgba(135, 135, 135, 0.2);
+}
+
+.foot-icon i {
+    padding: 20%;
+    margin: 3px;
+    font-size: large;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+}
+
+.foot-icon i:hover {
+    background-color: rgb(247, 183, 65);
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.pi{
+    font-size: large;
+}
+
+#contact {
+    font-family: montserrat;
+}
+
+#contact a {
+    padding: 5px;
+    font-size: large;
+}
+
+#contact img {
+    width: 5%;
+}
+
+.col-md-1{
+    padding-top: 1%;
+    font-size: 200%;
+    color: rgb(247, 183, 65);
+}
+.col-md-1:hover{
+    color: white;
+}
+
+.col-md-11{
+    font-size: large;
+}
+.dot{
+    font-weight:1000;
+    font-size: 20px;
+    line-height: 1.1;
+}
+.fast a{
+    color: black;
+}
+.fast a:hover{
+   color: rgb(247, 183, 65);
+}
+.fast a::after{
+ 
+    font-size: 2em;
+    vertical-align: center;
+}
+.head-g{
+    color: black;
+}
+.head-g:hover{
+    color:rgb(247, 183, 65);
+    cursor: pointer;
+}
+
+#foot {
+    background-color: rgb(247, 183, 65);
+    text-align: center;
+}
